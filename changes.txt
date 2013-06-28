@@ -1,0 +1,16 @@
+0.3
+January 26, 2012
+	
+	- Added Schema Browser plugin.  API subject to change still.
+	- Requires Xataface SVN rev 3126 or higher now
+
+0.2
+September 2011
+
+	- Fixed a number of issues
+	- Requires Xataface SVN rev 2500 or higher now
+	
+0.1
+August 9, 2011
+
+	-Initial release
