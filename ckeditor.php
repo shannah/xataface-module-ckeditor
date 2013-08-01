@@ -67,6 +67,9 @@
 	
 	public function registerPaths(){
 	    if ( !$this->pathsAdded ){
+                Dataface_Application::getInstance()->addHeadContent(
+                        '<script>window.CKEDITOR_BASEPATH='.json_encode($this->getBaseURL().'/lib/ckeditor/').';</script>'
+                );
 	        $this->pathsAdded = true;
 	        $jt = Dataface_JavascriptTool::getInstance();
 		    $jt->addPath(dirname(__FILE__).DIRECTORY_SEPARATOR.'js',
