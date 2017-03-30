@@ -64,7 +64,8 @@ class Dataface_FormTool_ckeditor {
 		$atts = array(
 			'class' => 'xf-ckeditor',
 			'data-xf-ckeditor-base-path' => $mod->getBaseURL().'/lib/ckeditor/',
-			'data-xf-ckeditor-config' => json_encode($ckeditorConfig)
+			'data-xf-ckeditor-config' => json_encode($ckeditorConfig),
+			'data-validation' => 'server'
 		);
 		
 		$el =& $factory->addElement('textarea', $formFieldName, $widget['label'], $atts);
