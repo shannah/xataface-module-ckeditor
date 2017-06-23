@@ -1,0 +1,12 @@
+{
+  "author": "Steve Hannah",
+  "description": "Adds support for ckeditor widget in Xataface applications",
+  "main": "index.js",
+  "repository": "",
+  "version": "0.3.2",
+  "license": "ISC",
+  "name": "xataface-module-ckeditor",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
